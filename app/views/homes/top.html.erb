@@ -1,1 +1,74 @@
-<h1><%= @top_title %></h1>
+    <header class="header">
+        <div class="inner header__inner">
+            ヘッダー
+        </div>
+    </header>
+
+    <main>
+        <section class="section translate">
+            <div class="inner translate__inner">
+                <h2 class="translate__title">タイトル</h2>
+                <form action="">
+                    <div class="translate__content">
+                        <div class="translate__input">
+                            <div class="area__language">
+                                <label for="language__input">言語：</label>
+                                <select class="classic" id="language__input" name="language__input">
+                                    <option value="00">日本語</option>
+                                    <option value="01">英語</option>
+                                </select>
+                            </div>
+                            <div class="area__text">
+                                <label for="text__input">翻訳したいワード</label>
+                                <input type="text" id="text__input" name="text__input">
+                            </div>
+                            <div class="area__send">
+                                <button type="button" name="btn__javascript" value="javascript" class="btn">javascript</button>
+                                <button type="submit" name="btn__Rails" value="Rails" class="btn">Rails</button>
+                            </div>
+                        </div>
+
+                        <div class="translate__output">
+                            <div class="area__language">
+                                <label for="language__input">言語：</label>
+                                <select class="classic" id="language__input" name="language__input">
+                                    <option value="00">日本語</option>
+                                    <option value="01">英語</option>
+                                </select>
+
+                            </div>
+                            <div class="area__text">
+                                <label for="text__output">翻訳結果</label>
+                                <p class="text__output" name="text__output">It was a dark and stormy night...</p>
+                            </div>
+                            <div class="area__search_list">
+                                <span>検索候補</span>
+                                <ul>
+                                    <li class="keyword keyword--01">
+                                        <span>xxxxxxx</span>
+                                        <div class="keyword__action">
+                                            <a href=""><i class="fa-solid fa-copy"></i></a>
+                                            <a href=""><i class="fas fa-search"></i></a>
+                                        </div>
+                                    </li>
+                                    <li class="keyword keyword--02">
+                                        <span>xxxxxxx</span>
+                                        <div class="keyword__action">
+                                            <a href=""><i class="fa-solid fa-copy"></i></a>
+                                            <a href=""><i class="fas fa-search"></i></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="inner footer__inner">
+            フッター
+        </div>
+    </footer>
